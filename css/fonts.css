@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+@font-face {
+  font-family: "Avenir";
+  src: url("../fonts/e9427e66-afa8-4ceb-bb31-7a970fb469ea.eot?#iefix");
+  src: url("../fonts/e9427e66-afa8-4ceb-bb31-7a970fb469ea.eot?#iefix") format("eot"), url("../fonts/748da442-9dd9-4a4d-8da0-b114e16e5d7f.woff") format("woff"), url("../fonts/6beeeb66-0b4e-4162-8788-8bf688b9829a.ttf") format("truetype"), url("../fonts/8afe744b-89a2-4ae2-a88e-05c6882580f3.svg#8afe744b-89a2-4ae2-a88e-05c6882580f3") format("svg");
+  font-weight: 800;
+  font-style: normal; }
+@font-face {
+  font-family: "Avenir";
+  src: url("../fonts/99db2616-e717-4838-a896-6dc86e37b49e.eot?#iefix");
+  src: url("../fonts/99db2616-e717-4838-a896-6dc86e37b49e.eot?#iefix") format("eot"), url("../fonts/874c8a3d-82cd-4b46-839b-521b49950be0.woff") format("woff"), url("../fonts/651041f0-000d-42ca-b667-939a4e0f5085.ttf") format("truetype"), url("../fonts/bb5e727f-dfd2-4e7c-8630-4dd73720a377.svg#bb5e727f-dfd2-4e7c-8630-4dd73720a377") format("svg");
+  font-weight: 200;
+  font-style: normal; }
+@font-face {
+  font-family: "Avenir";
+  src: url("../fonts/469ea7ce-bb40-478a-aa21-da079357c969.eot?#iefix");
+  src: url("../fonts/469ea7ce-bb40-478a-aa21-da079357c969.eot?#iefix") format("eot"), url("../fonts/5104d540-ac5c-442d-8581-1e9f4ecd37f0.woff") format("woff"), url("../fonts/6662a841-5b52-4af6-a868-6b43e3d7b263.ttf") format("truetype"), url("../fonts/bfcb105e-6348-434a-ba7b-31cd4bb80da6.svg#bfcb105e-6348-434a-ba7b-31cd4bb80da6") format("svg");
+  font-weight: 400;
+  font-style: normal; }
+
+/*# sourceMappingURL=fonts.css.map */
