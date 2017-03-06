@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25504",
 "files": {
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
 	"\/css\/aos.css": {
 		"aP": 1,
 		"bl": 0,
@@ -29,6 +35,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/css\/font-awesome-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/font-awesome-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/fonts.css": {
 		"aP": 1,
 		"bl": 0,
@@ -44,7 +60,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/css\/style-min.css",
 		"oF": 0,
 		"oS": 0
@@ -85,7 +101,7 @@
 		"oA": 0,
 		"oAP": "\/img\/logo.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/img\/social-media.jpg": {
 		"ft": 16384,
@@ -97,7 +113,7 @@
 		},
 	"\/index.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/index.html",
 		"oF": 0
 		},
@@ -105,7 +121,7 @@
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/min\/aos-min.js",
+		"oAP": "\/js\/aos-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -114,7 +130,7 @@
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/min\/bootstrap-min.js",
+		"oAP": "\/js\/bootstrap-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -123,7 +139,7 @@
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/min\/jquery-min.js",
+		"oAP": "\/js\/jquery-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -132,7 +148,7 @@
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/min\/main-min.js",
+		"oAP": "\/js\/main-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -144,9 +160,9 @@
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
-		"oAP": "\/css\/fonts.css",
+		"oAP": "\/less\/fonts.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -161,15 +177,31 @@
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
-		"oAP": "\/css\/global.css",
+		"oAP": "\/less\/global.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
 		"sI": 0,
 		"sM": 0,
 		"sU": 0
+		},
+	"\/less\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/less\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/less\/style.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/less\/style.css.map",
+		"oF": 0
 		},
 	"\/less\/style.less": {
 		"aP": 0,
@@ -178,9 +210,9 @@
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
-		"ma": 0,
+		"ma": 1,
 		"oA": 0,
-		"oAP": "\/css\/style.css",
+		"oAP": "\/less\/style.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -1968,7 +2000,7 @@
 		"autoOutputPathRelativePath": "\/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"syntaxCheckerStyle": 1,
@@ -1996,8 +2028,8 @@
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
 		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "",
-		"autoOutputPathReplace2": "",
+		"autoOutputPathReplace1": "kit",
+		"autoOutputPathReplace2": "html",
 		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsLESS": {
@@ -2007,8 +2039,8 @@
 		"autoOutputPathRelativePath": "..\/css",
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 2,
-		"createSourceMap": 0,
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 1,
 		"disableJavascript": 0,
 		"ieCompatibility": 1,
 		"outputStyle": 0,
@@ -2071,7 +2103,7 @@
 		"autoOutputPathRelativePath": "..\/css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
@@ -2099,7 +2131,7 @@
 		"autoOutputPathRelativePath": "..\/css",
 		"autoOutputPathReplace1": "stylus",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"importCSS": 0,
@@ -2123,7 +2155,7 @@
 		"autoOutputPathRelativePath": "\/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 0,
 		"createDeclarationFile": 0,
 		"createSourceMap": 0,
 		"jsxMode": 0,
@@ -2264,7 +2296,7 @@
 			"flagValue": -1
 			},
 		"screw-ie8": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"semicolons": {
