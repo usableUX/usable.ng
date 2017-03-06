@@ -187,6 +187,22 @@
 		"sM": 0,
 		"sU": 0
 		},
+	"\/less\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/less\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/less\/style.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/less\/style.css.map",
+		"oF": 0
+		},
 	"\/less\/style.less": {
 		"aP": 0,
 		"bl": 0,
