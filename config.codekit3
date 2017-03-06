@@ -15,6 +15,16 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/css\/aos.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/aos-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/bootstrap.css": {
 		"aP": 1,
 		"bl": 0,
@@ -32,16 +42,6 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/font-awesome-min-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/css\/font-awesome.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/font-awesome-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -65,113 +65,49 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/fonts\/469ea7ce-bb40-478a-aa21-da079357c969.eot": {
+	"\/favicon.ico": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/469ea7ce-bb40-478a-aa21-da079357c969.eot",
+		"oAP": "\/favicon.ico",
 		"oF": 0
 		},
-	"\/fonts\/5104d540-ac5c-442d-8581-1e9f4ecd37f0.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/5104d540-ac5c-442d-8581-1e9f4ecd37f0.woff",
-		"oF": 0
-		},
-	"\/fonts\/651041f0-000d-42ca-b667-939a4e0f5085.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/651041f0-000d-42ca-b667-939a4e0f5085.ttf",
-		"oF": 0
-		},
-	"\/fonts\/6662a841-5b52-4af6-a868-6b43e3d7b263.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/6662a841-5b52-4af6-a868-6b43e3d7b263.ttf",
-		"oF": 0
-		},
-	"\/fonts\/6beeeb66-0b4e-4162-8788-8bf688b9829a.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/6beeeb66-0b4e-4162-8788-8bf688b9829a.ttf",
-		"oF": 0
-		},
-	"\/fonts\/748da442-9dd9-4a4d-8da0-b114e16e5d7f.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/748da442-9dd9-4a4d-8da0-b114e16e5d7f.woff",
-		"oF": 0
-		},
-	"\/fonts\/874c8a3d-82cd-4b46-839b-521b49950be0.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/874c8a3d-82cd-4b46-839b-521b49950be0.woff",
-		"oF": 0
-		},
-	"\/fonts\/99db2616-e717-4838-a896-6dc86e37b49e.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/99db2616-e717-4838-a896-6dc86e37b49e.eot",
-		"oF": 0
-		},
-	"\/fonts\/e9427e66-afa8-4ceb-bb31-7a970fb469ea.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/e9427e66-afa8-4ceb-bb31-7a970fb469ea.eot",
-		"oF": 0
-		},
-	"\/fonts\/fontawesome-webfont.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/fontawesome-webfont.eot",
-		"oF": 0
-		},
-	"\/fonts\/fontawesome-webfont.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/fonts\/fontawesome-webfont.svg",
+	"\/img\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 938,
+		"oA": 0,
+		"oAP": "\/img\/favicon-16x16.png",
 		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
+		"opt": 0
 		},
-	"\/fonts\/fontawesome-webfont.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/fontawesome-webfont.ttf",
-		"oF": 0
+	"\/img\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1158,
+		"oA": 0,
+		"oAP": "\/img\/favicon-32x32.png",
+		"oF": 0,
+		"opt": 0
 		},
-	"\/fonts\/fontawesome-webfont.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/fontawesome-webfont.woff",
-		"oF": 0
-		},
-	"\/fonts\/fontawesome-webfont.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/fontawesome-webfont.woff2",
-		"oF": 0
-		},
-	"\/fonts\/FontAwesome.otf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/FontAwesome.otf",
-		"oF": 0
+	"\/img\/favicon-96x96.png": {
+		"ft": 32768,
+		"iS": 1743,
+		"oA": 0,
+		"oAP": "\/img\/favicon-96x96.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/img\/logo.png": {
 		"ft": 32768,
-		"iS": 15927,
+		"iS": 8828,
 		"oA": 0,
 		"oAP": "\/img\/logo.png",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/img\/usable-big.png": {
-		"ft": 32768,
-		"iS": 52132,
+	"\/img\/social-media.jpg": {
+		"ft": 16384,
+		"iS": 269893,
 		"oA": 0,
-		"oAP": "\/img\/usable-big.png",
+		"oAP": "\/img\/social-media.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -181,20 +117,20 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
-	"\/js\/bootstrap.js": {
+	"\/js\/aos.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/min\/bootstrap-min.js",
+		"oAP": "\/js\/aos-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/js\/flickity.pkgd.min.js": {
+	"\/js\/bootstrap.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/min\/flickity.pkgd.min-min.js",
+		"oAP": "\/js\/bootstrap-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -203,7 +139,7 @@
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/min\/jquery-min.js",
+		"oAP": "\/js\/jquery-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -212,7 +148,7 @@
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/min\/main-min.js",
+		"oAP": "\/js\/main-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -224,9 +160,9 @@
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
-		"oAP": "\/css\/fonts.css",
+		"oAP": "\/less\/fonts.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -241,9 +177,9 @@
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
-		"oAP": "\/css\/global.css",
+		"oAP": "\/less\/global.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -258,9 +194,9 @@
 		"ft": 1,
 		"ie": 1,
 		"iI": 0,
-		"ma": 0,
+		"ma": 1,
 		"oA": 0,
-		"oAP": "\/css\/style.css",
+		"oAP": "\/less\/style.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -2048,7 +1984,7 @@
 		"autoOutputPathRelativePath": "\/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"syntaxCheckerStyle": 1,
@@ -2076,8 +2012,8 @@
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
 		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "",
-		"autoOutputPathReplace2": "",
+		"autoOutputPathReplace1": "kit",
+		"autoOutputPathReplace2": "html",
 		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsLESS": {
@@ -2087,8 +2023,8 @@
 		"autoOutputPathRelativePath": "..\/css",
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 2,
-		"createSourceMap": 0,
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 1,
 		"disableJavascript": 0,
 		"ieCompatibility": 1,
 		"outputStyle": 0,
@@ -2151,7 +2087,7 @@
 		"autoOutputPathRelativePath": "..\/css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
@@ -2179,7 +2115,7 @@
 		"autoOutputPathRelativePath": "..\/css",
 		"autoOutputPathReplace1": "stylus",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"importCSS": 0,
@@ -2203,7 +2139,7 @@
 		"autoOutputPathRelativePath": "\/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 0,
 		"createDeclarationFile": 0,
 		"createSourceMap": 0,
 		"jsxMode": 0,
@@ -2344,7 +2280,7 @@
 			"flagValue": -1
 			},
 		"screw-ie8": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"semicolons": {

@@ -1,91 +1,196 @@
+<!--
+
+    Hello Human! 😜
+
+    I suspect you can write code. So please epp us. There are a couple of open sourced projects we are working on; headover to our github page and see how you can help 👉 https://github.com/usableUX
+
+    ╭──────────────────────────────────────────╮
+    │ ≡ Design & Dev                           │
+    ╞══════════════════════════════════════════╡
+    │                                          │
+    │ Kene Udeze (@udezekene)                  │
+    ├──────────┬───────────────────────────────┤
+    │ Email    │ info@usable.ng                │
+    ├──────────┼───────────────────────────────┤
+    │ Twitter  │ @usable_                      │
+    ├──────────┼───────────────────────────────┤
+    │ Location │ Lagos, Nigeria                │
+    ╰──────────┴───────────────────────────────╯
+
+-->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Usable.ng | An informal design community for UX Designers and enthusiasts</title>
-	
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="UTF-8">
+
+    <!-- OpenGraph for Facebook. -->
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Usable.ng | We are a community of humans who are interested in building beautiful & functional products." />
+	<meta property="og:url" content="http://usable.ng/" />
+	<meta property="og:description" content="re:learn is an open living lab focused on helping schools use technology in a smarter way to enhance learning" />
+	<meta property="og:image" content="http://usable.ng/img/social-media.jpg" />
+	<meta property="og:locale" content="en_US" />
+
+	<!-- Twitter Cards -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@usable_">
+	<meta name="twitter:title" content="We are Usable.ng">
+	<meta name="twitter:description" content="Usable.ng | We are a community of humans who are interested in building beautiful & functional products.">
+	<meta name="twitter:image:src" content="http://usable.ng/img/social-media.jpg">
+
+	<!-- Favicons -->
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+
+    <title>Usable.ng | We are a community of HUMANS who are interested in making better products for HUMANS.</title>
+    <!-- Font Awesome CDN via https://fontawesomecdn.com/ -->
+    <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/aos.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
+
 <body>
-	
-	<section>
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-8 col-sm-push-2">
-					<div class="lead">
+    <div class="wrapper">
+        <header>
+            <div class="flexbox-container header--wrapper">
+                <div class="header--logo">
+                    <a href="https://www.usable.ng"><img src="img/logo.png" alt=""></a>
+                </div>
+                <div class="align-right header--navigation">
+                	<ul>
+                		<!-- <li><a href="">Find/Post Design Jobs</a></li> -->
+                		<li><a href="https://goo.gl/v3E2WJ" target="_blank" onclick="ga('send', 'event', 'Meetup Signup', 'E-mail Signup', 'E-mail Signup for new members');">Join the community</a></li>
+                	</ul>
+                </div>
+            </div>
+        </header>
 
-						<img src="img/logo.png" alt="">
-						<p class="first">Formerly known as UXLagos, <b>usable</b> is a community of people (designers, developers, enthusiasts) who are interested in designing usable products. </p>
-						<p>At our monthly meetups, we talk about UX and things related to it: interaction design, visual design, user research, sketching and prototyping. We also explore the role of UX in the development process, marketing, business, everyday life. We share our experience, we present our actual projects, we analyze trends and more.</p>
 
-						<p class="small">PS:  If you're wondering why the name change, <a href="https://medium.com/@udezekene/0-to-27-the-evolution-of-uxlagos-27e3b8d117dd#.88j52md41" onclick="ga('send', 'event', 'Announcement Read', 'Medium Post', 'Read why we changed the name');" target="_blank">please read this</a></p>
+        <section id="hero">
+        	<div class="flexbox-container">
+        		<div class="hero--text">
 
-						<a class="twitter-follow-button" href="https://twitter.com/usable_"> Follow @usable_</a>
+        			<h1>A community of <span>humans</span> who are interested in building <span>beautiful</span> & <span>functional</span> products.</h1>
 
-						<ul class="next-meetup">
-							<li>
-								<span>Next Lagos Meetup</span>
-								<h3><span>Focus</span> Beyond Pixels: UX of Physical Products</h3>
-								<label for=""><i class="fa fa-calendar"></i>Thursday, January 24, 2016</label>
-								<a href="https://goo.gl/dXCvIw" onclick="ga('send', 'event', 'Attend Button', 'Attend Meetup', 'Attend Lagos Meetup');" target="_blank">Attend this meetup</a>
-							</li>
+        			<p>At our monthly meetups, we talk about UX and things related to it: interaction design, visual design, user research, sketching and prototyping. We also explore the role of UX in the development process, marketing, business, everyday life. </p>
 
-							<li class="next">
-								<span>Next Abuja Meetup</span>
-								<h3><span>Focus</span> Lifesaving Design with Field's Justin Lorenzon </h3>
-								<label for=""><i class="fa fa-calendar"></i>Thursday, October 20, 2016</label>
-								<!-- <a href="https://attending.io/events/usable-meetup-abuja-october-2016" onclick="ga('send', 'event', 'Attend Button', 'Attend Meetup', 'Attend Abuja Meetup');"  target="_blank">Attend this meetup</a> -->
-							</li>
+        			<p>Since 2014, there has been over 40 usable meetups and the community has grown 600+ members spanning two cities (Lagos & Abuja).</p>
 
-						</ul>
+        			<p>Psst! We used to go by <a href="https://medium.com/@udezekene/0-to-27-the-evolution-of-uxlagos-27e3b8d117dd#.88j52md41">UXLagos</a> </p>
+
+					<div class="hero--button">
+						<a class="button" href="https://goo.gl/v3E2WJ" target="_blank" onclick="ga('send', 'event', 'Community', 'Join Community', 'E-mail Signup for new members');">Join the Community</a>
+						<a class="twitter-follow-button" href="https://twitter.com/usable_"> Follow @Usable_</a>
 					</div>
-	
-				</div>
+        		</div>
+
+        		<div class="hero--participate align-right">
+        			<div class="hero--action">
+        				<a data-aos="fade-up" data-aos-duration="3000" data-aos-anchor=".hero--participate" data-aos-delay="400" href="https://goo.gl/v3E2WJ" target="_blank" onclick="ga('send', 'event', 'Community', 'Join Community', 'E-mail Signup for new members');">
+	        				<h4>Join the Community</h4>
+	        				<p>Join a meetup in your city. Lagos & Abuja have active communities</p>
+        				</a>
+        			</div>
+        			<div class="hero--action">
+        				<a data-aos="fade-up" data-aos-duration="3000" data-aos-anchor=".hero--participate" data-aos-delay="300" href="https://community.usable.ng/" onclick="ga('send', 'event', 'Community', 'Online Community', 'Join the online community');" target="_blank">
+	        				<h4>Start a conversation</h4>
+	        				<p>Kickstart a discussion in the online community. Meet designers around you. Collaborate.</p>
+        				</a>
+        			</div>
+        			<div class="hero--action">
+        				<a data-aos="fade-up" data-aos-duration="3000" data-aos-anchor=".hero--participate" data-aos-delay="200" href="http://goo.gl/forms/vAhKD2BK6m4kjI5I3" onclick="ga('send', 'event', 'Community', 'Menthorship', 'Mentors Signup');" target="_blank">
+	        				<h4>Industry Professional?</h4>
+	        				<p>Help guide industry newbies through mentorship.</p>
+        				</a>
+        			</div>
+        			<div class="hero--action">
+        				<a data-aos="fade-up" data-aos-duration="3000" data-aos-anchor=".hero--participate" data-aos-delay="0"  href="http://goo.gl/forms/4DDtkRve1s95npoZ2" onclick="ga('send', 'event', 'Community', 'Menthorship', 'Mentees Signup');" target="_blank">
+	        				<h4>Need Guidiance?</h4>
+	        				<p> Join our Mentorship Program as a mentee and get connected to industry professionals.</p>
+        				</a>
+        			</div>
+        			
+        			
+        		</div>
+        	</div>
+        </section>
+        <section id="image-gallery">
+        	<div class="flexbox-container fullwidth">
+        		
+    			<div class="image" style="background-image: url(https://lh3.googleusercontent.com/xdK8-k2wS-3NTw5xzbKTmUJDwSuEieNMfUYEpVCO5mpVaRBK_r72aC2sPW5XMexpdnCDo75mufCOASwS0R_lfv8Wt3_gXFQd5LXrTipWdi9Oc9k7_fZu2CN1W12eyw5zP3Ug1VkflkFCYDblAFoYf-F50eVvvuqttU-QEwVF0Vhg55gc7Y8OnFaqN8K9-ER_6PVyNXbfePZ0SYqCr9mSKzF8hQ9_UZJoTZqLQTmxTU_ucF4scAIhIyUrQzvzJUPEsKgVhAJllKW6GttOiNKLaCs2HaxzneXNsu6ahWk2_EmYr1qdGj70gZ21IUW6d4vhVC0pIae6FEGjstBX1jZMViph-sLClfq0QmpvJaGoCoYfkicbp97IZJRUiiIzNXfvUnVDmEWef8GPUwmGZs0aEwuhsankR51r7kByJ95WcMjrFAA5MjdPU1r6ZM9cfUKBC90HJAyn8kmIAJbW7bcuQACJg1F6F-wGGDa50A6VkVcximFtK62k5ZvfoO2ZobIQzx4F5EoOJVQvgDAJq5RCzOM4yjIi5ieVldtCh-iQB__wx685ezwhNLvCr7mh0gaUgsZtbC632_S4PnJ35E1SI_AwKRH8K6NEGgAnw81XbKFXri8XHLPVoWhwLFQ3WqFL0x5Daq5deTZ1Gu1DeOPtgZ926K49Wcf0OdglEyeDFw=w1200-h800-no);"></div>
+
+    			<div class="image" style="background-image: url(https://lh3.googleusercontent.com/qLJzchHcoGvnyvLautYSxRc776CIOldqROeaCwzHr56U818fcBg13gXpVDNUTE6nHtDdkkVyYZ5kFEKbkwmPRgs16M5Wfw4NYfpHqlwVE0FakMdHOtSh7E8nmtLRj8RF-kZ_6-7DZuKP37LUuargCk7aTNQJvqJbPDVU7LORjPstXmAbF5KFNztZU7KUK7ygdGkJqL_khe-rdyx25NZSy0mwRVfVBwCmwt2F6X1tWNQNfAhKp62XsfgjdsJysreuRd4xZUKpclJPYEXa6nEJgNWCvTsFuCvb4PIGMMiV-jbx633dzUV-LAPQ3IIlg1ocKNsq_jDw87AvgIaQMyT2OSC-CKsiROYLFp8hPCuFsJaD1hIi0E_-eXjBX-rOn0xa2QL9xQKJ8mzSCueWCrS3pJ3XQW_JT1_rgjFFh28v-m3lJdbFYUv3e-mWmpy2C2LK3smJGoZknG87PCP2ipRigOp1kRD4T-lcdfoSUot9506_hmP8FqgFF0Pnx3Y5chNNWauoRcu2eaz9lMZsPM9rfxEfSdMxbrJx6cS3QSjnQrLuPRAQxCFX9ySSO1_pz-AU_tRWpdlKB_bfXWEaQUtz5ol07ROx2E4D0-AJhwFnZShmaruu8ktKahJGhlTogsaQYNarCo_viXhQR7vEh4sP59N_qMxEdvKyceTiLuUNvQ=w1200-h800-no);"></div>
+        		
+        		<div class="image" style="background-image: url(https://lh3.googleusercontent.com/ETDaoyr-p_s7X80NSZTEhNrlpjed7CzS30r9jOTT4UWeeVXeYKVxzovythp1aARaRuPLDxPPFPahPTXOs10FrDt6VqSiCOJEZNtDidP4gliEe5BddAKmteBfMUPshJ3m6yBkIgzp5O8FliNKL8pG5WUmtYxAk58d4BhwY6BDN-4pGfmbgzXZNUTjcNtFjiKnWdUjAqv2BaUyCtgIxMueDZIbYx85UzsnhkQv0qDWG4ru4mmCmWZvG3WVi40Gq06eLXJ_wfc3n5zVWG6VxRhPM795I7k58qic8ZSdKx-L0GnLmNryXvFwhLT7iamX14MoC-OCbEJt3y51-82bZx9YNq61ybp1F_SE9Lt8O-tH5H0BKmY-GIwnjnctOjQdtQqP-JEY4VpiRqj2Wiiv_bfaSd4p4mvw6LjdrFO-CslthzX3eXEHxVsoz7-UvWTyxK58-P91YeQCt8MZ1YTwEnGsIvJ4jP6iSgAOLXdMXN-yMmMYBUOE5Ncg7MYLnwFFrOpEAuI9U9p-RMcyxyr9BXxEonx03NHF8s-chYJhI1T_nh2wHQHfljGJPC2J-jxrdiupgx0cvarWJ-t2MoW0uo3ROhzFAZ3AvSGohRz6K42dkCbdTYqYP3KY6HcTcNtqaI2VBm02554CSSuEI1pwT8UocNvBhqovdXhgiq8YfyAU=w1200-h800-no);"></div>
+
+    			<div class="image" style="background-image: url(https://lh3.googleusercontent.com/DWKvapycb5ysPqqx-yu7Kho1osKPtzlmLoXa2nydl66M3oWh-YOyu_CpTFb-tTkrzZ1VkMnZ6bTLHqVg20PSfzJGdw82sMP6_hgGT-PUozEXkzZXrxLPtGK2dYlakX49jsWQp2MFYQoV9dqZeaD4ms5YeOVH4OMBHzsPL9q1ZMAtYqTmGZUkGJyaBKPlF0f80Z_sdo_c0m14Pm1mLcLk1xQWmyIoHCadC4fCEsvBeDpqJCVHGveQNdzKXREEeg4q9Wv0OsnLlCoiCWqtPnztxw8OZLSNfi6WFdy3i53QFDihn-qZuleQ-P9mwp0jpBQxrRELjGSx8qtrZnbzmIqRjr2qaoZEKiC90TbRI9cbJGNzbRr3BKpm5EvjUpH7qXfobUYL_xNX28zF0UUid9YxOagkQU8r7aBlMrCzH6rWspzoikVftT-pAFAUtlIvjZHnZb5V53H1pXD8ImJC4sFEEecy086zJTs9E4hzl_PHaRvO4_y6gM_8OMK1GJgcZ15wISBsUK0OIUhex2-ZMHYy3Ew34TMKfSx35MuzBT40DBzl_XqNk541_a4uvS9yc-Id1M7jogtHUgwYTa0LVEZfbj3_YIVTxQdniXq4kt5UaPFgGaFc-itC7IjCMeiq3O_eLVENSARcRzHwY1mCO06f725B1BlnkphUfPEbXII4yA=w1200-h800-no);"></div>
+
+    			<div class="image" style="background-image: url(https://lh3.googleusercontent.com/7c802V1i8mVofM5lGvXGRMJKoncSwq6Qbq05rJL8B_oHON--6n9ltog7SP9ncptBsgW-TYBiELEKXxEEEkln5oNJQoDdxCA5zvQ_zNbjLR3CXBPOmwmXLt1al-whfkslESVta9AiMl4BzFfTbku48a47JxjdMPSo7N3HWX5HcCLrejo5yoC4ZwoO0xcGotvjRlO23LBerwD8mXoDt90Hzzw8sJ3u683wN8cq7pZM2--DU8z_ZoVuXtenD3NyB7A2dwZcubTYWeedl3JHIXevHGUKdjMaLiUPS0odAvLdOah-uSyk7e3aQBjGoSzlGA9UnEq8AvLr17fBvtfR0-NuP6w71o-PQ9jr32MmwqBtgt3Cm_r25tEH-ImT3Yqcw-FSjCt_yNt5cn0G-Jhdh9EZLpyZh8qs3UrOd2DOs4ab76A1PduEYuW_SROW1ekExkZlc6NjaLDdHOqZQN7f9jLfG1M7EjaHgREBztIMWabthu_nROkTyBc9yG87cBxcLVFQkNqd-s-vBF_Hq2xcK60isp8fgo0mBCSzNPiZmedpmANdE-6Qrq16C0yRrUZFjCbbQm4m8mP5CDGXMziWje8NcBDGZ3wpGwUuYt3BbYYcMJMmj2cQPk9Etrv26WQpeaAoecqQPxZzmebQbwPiIXDri_qEwRLAIG6BNYmY9RtteQ=w1200-h800-no);"></div>
+
+    			<div class="image" style="background-image: url(https://lh3.googleusercontent.com/0b3If4jVjHONhDzH59Wa1jMa3oUPeegTpXQ3uF_4FhWKDZkLY0mqLonBp_b8O9MzgYcoX1G6AY6QFh_zKtJEmzYUao53x81HEJEkHAzyuwFaU_EL6wIhGl5CNTMMDT8NLrLXVVe0uiNnhtzAZ6xNiiRHnA__zD4b9ZdFeopMJEUcnLkf-IKSfa8OtbWH8ZpB1P8gXxxcyFQ0SpJ2CRqwTAsbcKPIW377N3QtLj-5CluL1vi6Vkfxn4Ep-xbaSdjqFZQbF_yeilKy8tM9ZfQH74vL3N4RMBPG02uahTkYjnJkAU7mPSfh1kRHImVADzBtVS_hlOPNQO8uifQzX7QqLbRSn288dtC8PN-HqWpaCuQ0rDqhY82kcA_gUt5I4v7pEUIP6kW4T0CJBiiyHV5OirmhyX4yRSK2skc-NFdCDlO1CjIN-cG9k4UHrL9bOaeuEWOp3ay5jJkRkF27IKgJEJya_c30oT0rexXbftSKbyNaAl9CdgMMd578BpcdzuLDK7gWaiqrI6_1NmLqjKjVUOlFoUDc_7GZNmgxE7MhbQLIJG-Z3_Zb7QLjrjxnIpwcffm1Aa6m0gpEvLafcUdkowfY0T-Y9_dIU7O13GrSks7Mz1nP1L2xxpgHuPb3AsQeg4zKXl3qYvr06jtiB3FSYwD3ahvE5WUuPX5TNKop_A=w1200-h800-no);"></div>
 				
-				<div class="clearfix"></div>
-				<div class="col-sm-4 link">
+        	</div>
+        </section>
+        <!-- <section id="meetup">
+        	<div class="meetup--details">
+        		<h3>Meetup Name</h3>
+        	</div>
+        </section> -->
 
-					<a href="http://eepurl.com/cyl8j1" target="_blank" onclick="ga('send', 'event', 'Meetup Signup', 'E-mail Signup', 'E-mail Signup for new members');">Join our e-mail group to be notified of our next meetup</a>
-				</div>
-				<div class="col-sm-4 link">
-					<a href="http://goo.gl/forms/vAhKD2BK6m4kjI5I3" target="_blank" onclick="ga('send', 'event', 'Mentorship Network', 'Mentor Application', 'Mentorship application - mentor');">Join our mentorship network <span>signup as a MENTOR</span></a>
-				</div>
-				<div class="col-sm-4 link">
-					<a href="http://goo.gl/forms/4DDtkRve1s95npoZ2" target="_blank" onclick="ga('send', 'event', 'Mentorship Network', 'Mentee Application', 'Mentorship application - mentee');">Join our mentorship network <span>signup as a MENTEE</span></a>
-				</div>
+        <footer>
+        	<div class="flexbox-container">
+        		<div class="footer--links">
+	        		<ul>
+	        			<li>We are open to feedback and suggestions <a href="mailto:info@usable.ng">Send us Feedback</a></li>
+	        			<li>Want to Sponsor the next meetup? <a href="mailto:info@usable.ng">Let Us Know</a></li>
+	        		</ul>
+	        	</div>	
+        	</div>
+        	
+        </footer>
+    </div>
+    <script src="js/aos.js"></script>
+    <script>
+    window.twttr = (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+            t = window.twttr || {};
+        if (d.getElementById(id)) return t;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
 
-			</div>
-		</div>
-	</section>
-	<script>window.twttr = (function(d, s, id) {
-	  var js, fjs = d.getElementsByTagName(s)[0],
-	    t = window.twttr || {};
-	  if (d.getElementById(id)) return t;
-	  js = d.createElement(s);
-	  js.id = id;
-	  js.src = "https://platform.twitter.com/widgets.js";
-	  fjs.parentNode.insertBefore(js, fjs);
-	 
-	  t._e = [];
-	  t.ready = function(f) {
-	    t._e.push(f);
-	  };
-	 
-	  return t;
-	}(document, "script", "twitter-wjs"));</script>
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        t._e = [];
+        t.ready = function(f) {
+            t._e.push(f);
+        };
 
-	  ga('create', 'UA-31913096-19', 'auto');
-	  ga('send', 'pageview');
+        return t;
+    }(document, "script", "twitter-wjs"));
+    </script>
+    <script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-	</script>
+    ga('create', 'UA-31913096-19', 'auto');
+    ga('send', 'pageview');
+    </script>
+
+    <script>
+    	AOS.init();
+    </script>
 </body>
-</html>
 
+</html>
 
