@@ -8,13 +8,14 @@ Release:    23.04.2014
 @import url(fonts.less);
 
 @font-color:#444444;
-@bg-color:#F2F5F7;
 @link-color:#2BBFA2;
 
-@hero-color:#000;
-@hero-height:600px;
-@emp-color:#1A8AF3;
-@emp-color-w:#fff;
+@dark:#141414;
+
+@usable-red:#E03233;
+@usable-blue:#3550A2;
+
+@radius:3px;
 
 /** Media Query **/
 @highdensity: ~"only screen and (-webkit-min-device-pixel-ratio: 1.5)",
@@ -87,18 +88,17 @@ Release:    23.04.2014
 html, body {
   position: relative;
   height: 100%;
-  // background: #F6F6F6;
+  background: #fff;
+  margin: 0;padding: 0;
 }
 
 h1,h2,h3,h4,h5,h6{
-  font-family: "Archer SSm A","Archer SSm B",serif;
-  margin: 0;
-  font-weight: 400;
+  margin: 0;padding: 0;
 }
 
 body {
   color: @font-color;
-  font-family: "Gotham SSm A","Gotham SSm B",serif;
+  font-family: 'Rubik', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   -o-font-smoothing: antialiased;
@@ -106,14 +106,13 @@ body {
   font-size: 16px;
   font-style: normal;
   font-variant: normal;
-  font-weight: normal;
+  font-weight: 400;
   vertical-align: baseline;
-  background: #F2F5F7;
+  background: #fff;
   
 }
 a{
-  text-decoration: none;
-  color: #DF2926;
+  
 }
 * input, * textarea {
     -webkit-user-select: initial;
@@ -147,3 +146,25 @@ outline: none;
 border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+
+
+.flexbox-container{
+  display: flex;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0;
+  
+  @media @mobile{
+    margin: 0 15px;
+  }
+
+  @media @tablet{
+    margin: 0 15px;
+  }
+
+  &.fullwidth{
+    max-width: 100%;
+    margin: 0;
+  }
+
+}
