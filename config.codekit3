@@ -7,7 +7,7 @@
 		"uuidString": "A91DDA7A-624E-4ADF-B0DC-28B59D3A73AA"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "25704",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -60,34 +60,42 @@
 	"\/img\/favicon-16x16.png": {
 		"ft": 32768,
 		"iS": 938,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/favicon-16x16.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/img\/favicon-32x32.png": {
 		"ft": 32768,
 		"iS": 1158,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/favicon-32x32.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/img\/favicon-96x96.png": {
 		"ft": 32768,
 		"iS": 1743,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/favicon-96x96.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/img\/logo.png": {
 		"ft": 32768,
 		"iS": 8828,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/logo.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"q": 100
 		},
 	"\/img\/social-media.jpg": {
 		"ft": 16384,
@@ -95,7 +103,8 @@
 		"oA": 0,
 		"oAP": "\/img\/social-media.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1,
+		"q": 100
 		},
 	"\/index.html": {
 		"ft": 8192,
@@ -895,6 +904,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -1092,6 +1105,10 @@
 			"optionString": "{'grouping': false, 'allowCall': false }"
 			},
 		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-assign": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -1371,6 +1388,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
 		"object-curly-newline": {
 			"active": 0,
 			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
@@ -1422,6 +1443,10 @@
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -1516,6 +1541,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
@@ -1962,7 +1991,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -2055,7 +2085,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"enableLossy": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
