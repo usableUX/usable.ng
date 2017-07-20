@@ -7,7 +7,7 @@
 		"uuidString": "A91DDA7A-624E-4ADF-B0DC-28B59D3A73AA"
 		}
 	],
-"creatorBuild": "25704",
+"creatorBuild": "25849",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -57,44 +57,59 @@
 		"oAP": "\/favicon.ico",
 		"oF": 0
 		},
+	"\/img\/app-icon-192x192.png": {
+		"ft": 32768,
+		"iS": 3071,
+		"oA": 0,
+		"oAP": "\/img\/app-icon-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/favicon-16x16.png": {
 		"ft": 32768,
 		"iS": 938,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/favicon-16x16.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/favicon-32x32.png": {
 		"ft": 32768,
 		"iS": 1158,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/favicon-32x32.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/favicon-96x96.png": {
 		"ft": 32768,
 		"iS": 1743,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/favicon-96x96.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/logo.png": {
 		"ft": 32768,
 		"iS": 8828,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/logo.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/social-media.jpg": {
@@ -103,6 +118,7 @@
 		"oA": 0,
 		"oAP": "\/img\/social-media.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
@@ -199,6 +215,23 @@
 		"sM": 0,
 		"sU": 0
 		},
+	"\/manifest.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/manifest-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/min\/sw-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/min\/min\/sw-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/README.md": {
 		"cS": 0,
 		"eF": 1,
@@ -216,6 +249,15 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/sw.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/min\/sw-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/whitelist\/index.html": {
 		"ft": 8192,
@@ -1192,6 +1234,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
@@ -2016,14 +2062,6 @@
 		"orderOutput": 0,
 		"outputStyle": 1
 		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
-		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
@@ -2086,7 +2124,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"enableLossy": 1,
+		"optimizerType": 1,
 		"quality": 100
 		},
 	"languageDefaultsPUG": {
@@ -2172,6 +2210,7 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
